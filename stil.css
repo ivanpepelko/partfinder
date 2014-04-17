@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body {
+    background-color:#181A1A;
+    font-family:Open Sans;
+    color:#11CFA0;
+}
+
+#input-link{
+    font-size:25px;
+    width:400px;
+    height:40px;
+    background-color:#3f4543;
+    color:#11CFA0;
+    border:none;
+    font-family:inherit;
+}
+
+#input-submit{
+    font-weight:bold;
+    border:none;
+    width:150px;
+    height:40px;
+    background-color:#11CFA0;
+    color:#3f4543;
+    left:125px;
+    position:relative;
+    font-family:inherit;
+}
+
+#sadrzaj {
+    width:400px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:40%;
+    margin:-100px 0 0 -200px;
+    text-align:center;
+    font-family:inherit;
+}
+
+form{
+    width:400px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:25%;
+    margin:-100px 0 0 -200px;
+}
+
+#naslov{
+    width:600px;
+    height:100px;
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin:-100px 0 0 -200px;
+    align-items:center;
+}
+
+#text_naslova {
+    font-weight:500;
+    font-size:19px;
+    width:200px;
+}
+
+span{
+    font-weight:400;
+    font-size:14.25px;
+    color:#999;
+}
+
+a:link {color:#11CFA0;text-decoration:none;}
+a:visited {color:#11CFA0;text-decoration:none;}
+a:active {color:#11CFA0;text-decoration:none;}
